@@ -25,6 +25,7 @@ addBtn.addEventListener("click", () => {
   });
 
   id++;
+  input.value = "";
   console.log(content);
 
   render();
